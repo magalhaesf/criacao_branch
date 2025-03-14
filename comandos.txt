@@ -1,0 +1,31 @@
+git init
+git remote add origin https://github.com/magalhaesf/criacao_branch.git
+git branch -m "texto"
+git add .
+git status
+git config user.name "magalhaesf"
+git config user.email "fernanda.fatima.magalhaes@escola.pr.gov.br"
+git config --list
+git commit -m "commit"
+git push -u origin main
+git log
+
+git branch criacao_index
+git checkout criacao_index
+git add .
+git status
+git checkout main
+git merge
+git commit -m "commit"
+git push
+
+
+git branch criacao_comandos
+git checkout comandos
+git add .
+git status
+git checkout main
+git merge
+git commit -m "commit"
+git push
+
