@@ -1,6 +1,12 @@
+ls
+cd Downloads
+ls
+mkdir criacao_branch
+cd criacao_branch
+
 git init
 git remote add origin https://github.com/magalhaesf/criacao_branch.git
-git branch -m "texto"
+git branch -M main
 git add .
 git status
 git config user.name "magalhaesf"
@@ -30,3 +36,5 @@ git merge
 git commit -m "commit"
 git push
 git log
+
+exit
