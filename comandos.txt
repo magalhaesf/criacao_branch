@@ -1,11 +1,11 @@
 ls
 cd Downloads
 ls
-mkdir criacao_branch
-cd criacao_branch
+mkdir fernanda
+cd fernanda
 
 git init
-git remote add origin https://github.com/magalhaesf/criacao_branch.git
+git remote add origin https://github.com/magalhaesf/fernanda.git
 git branch -M main
 git add .
 git status
