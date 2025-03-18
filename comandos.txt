@@ -18,6 +18,7 @@ git log
 
 git branch criacao_index
 git checkout criacao_index
+code .
 git add .
 git status
 git checkout main
