@@ -21,7 +21,7 @@ git checkout criacao_index
 git add .
 git status
 git checkout main
-git merge
+git merge criacao_index
 git commit -m "commit"
 git push
 git log
@@ -32,7 +32,7 @@ git checkout comandos
 git add .
 git status
 git checkout main
-git merge
+git merge criacao_comandos
 git commit -m "commit"
 git push
 git log
